@@ -1,0 +1,46 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    background: black;
+    padding: 3rem;
+}
+
+.wrapper__all {
+    width: 60vw;
+    display: flex;
+    margin: auto;
+
+    background-color: white;
+
+}
+
+.wrapper__lock {
+    width: 50%;
+    height: 10rem;
+    background-image: url("padlock.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+.wrapper__message {
+    padding: 2rem;
+    
+}
+
+.message {
+    visibility: hidden;
+
+}
+
+.revealed {
+    visibility: visible;
+}
