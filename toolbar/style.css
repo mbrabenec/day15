@@ -1,0 +1,68 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    padding: 3rem;
+    background: linear-gradient(to right, green, blue);
+    min-height: 150vw;
+    
+}
+
+.wrapper {
+    width: 50rem;
+    display: flex;
+    margin: auto;
+
+}
+
+
+
+.button {
+    font-size: 1.5em;
+    flex: 1;
+    padding: 1rem;
+    border: 1px black solid;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.55s;
+    border-radius: 0.2em;
+    opacity: 0.5;
+
+}
+
+.button:hover {
+    background-color: lightgrey;
+    opacity: 0.75;
+    
+}
+
+.selected {
+    background-color: darkgray;
+    cursor:initial;
+    transition: 0.35s;
+    opacity: 0.9;
+}
+
+.selected:hover {
+    background-color: darkgrey;
+    opacity: 0.9;
+}
+
+/* ///// ///// ///// ///// /////  */
+
+#box {
+    margin: 2rem auto;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+/* ///// ///// ///// ///// /////  */
+
+textarea {
+    margin: 2rem auto;
+    text-align: center;
+}

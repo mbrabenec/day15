@@ -18,41 +18,40 @@
 .spinner {
     width: 6rem;
     height: 6rem;
-    animation: spin 2s linear infinite;
+    /* animation: spin 2s linear infinite; */
   }
+
+.spinner.spin  {
+    transition: 4s;
+    transform: rotate(180deg);
+
+
+}
+
+
+
+
+/* @keyframes spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    50% {
+        transform: rotateZ(180deg) scale(2.0);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+        ;
+    }
+} */
+
+
+
 
 .hidden {
     display: none;
 }
 
 
-
-  
-  @keyframes spin {
-    0% {
-      transform: rotateZ(0deg);
-    }
-  
-    50% {
-      transform: rotateZ(180deg) scale(2.0);
-    }
-  
-    100% {
-      transform: rotateZ(360deg);
-      ;
-    }
-  }
-  
- 
-
-
-  /* .spinner {
-    background-image: url("img/spinner.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 6rem;
-    height: 6rem;
-    animation: spin 2s linear infinite;
-  }
-   */
   
